@@ -44,4 +44,7 @@ dependencies {
 
     // Latest version compatible with the old Support Library
     implementation 'com.github.AppIntro:AppIntro:4.2.3'
+
+    //bottom nav
+    implementation 'com.github.vaibhav1929:android-navigation-bar:1.0'
 }
