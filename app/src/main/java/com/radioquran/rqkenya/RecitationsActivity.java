@@ -15,7 +15,7 @@ public class RecitationsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recitations);
 
-        WebView myWebView = (WebView) findViewById(R.id.webview);
+        WebView myWebView = (WebView) findViewById(R.id.recitationsWebview);
         myWebView.loadUrl("https://radioqurankenya.co.ke/app/recitations");
 
         WebSettings webSettings = myWebView.getSettings();

@@ -21,7 +21,7 @@ public class AboutActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
 
-        WebView myWebView = (WebView) findViewById(R.id.webview);
+        WebView myWebView = (WebView) findViewById(R.id.aboutWebview);
         myWebView.loadUrl("https://radioqurankenya.co.ke/app/about");
 
         WebSettings webSettings = myWebView.getSettings();

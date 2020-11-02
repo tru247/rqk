@@ -15,7 +15,7 @@ public class ContactActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contact);
 
-        WebView myWebView = (WebView) findViewById(R.id.webview);
+        WebView myWebView = (WebView) findViewById(R.id.contactWebview);
         myWebView.loadUrl("https://radioqurankenya.co.ke/app/contacts");
 
         WebSettings webSettings = myWebView.getSettings();
